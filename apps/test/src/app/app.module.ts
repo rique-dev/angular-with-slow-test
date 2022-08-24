@@ -8,14 +8,8 @@ import { Lib2Component } from '@angular-slow/lib2';
 import { Lib3Component } from '@angular-slow/lib3';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    NxWelcomeComponent,
-    Lib1Component,
-    Lib2Component,
-    Lib3Component,
-  ],
-  imports: [BrowserModule],
+  declarations: [AppComponent, NxWelcomeComponent],
+  imports: [BrowserModule, Lib1Component, Lib2Component, Lib3Component],
   providers: [],
   bootstrap: [AppComponent],
 })
