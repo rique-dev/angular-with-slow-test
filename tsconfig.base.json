@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@angular-slow/lib1": ["libs/lib1/src/index.ts"],
+      "@angular-slow/lib2": ["libs/lib2/src/index.ts"],
+      "@angular-slow/lib3": ["libs/lib3/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

@@ -1,0 +1,22 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/lib3/src",
+  "prefix": "angular-slow",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/lib3"],
+      "options": {
+        "jestConfig": "libs/lib3/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["libs/lib3/**/*.ts", "libs/lib3/**/*.html"]
+      }
+    }
+  },
+  "tags": []
+}
